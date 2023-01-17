@@ -32,13 +32,13 @@ body {
     margin: 20px 0;
   }
   
-  .middle__form-cyfd a {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 13px;
-    line-height: 13px;
-    padding: 14px 14px;
-    position: absolute; 
+  .middle__form-cyfd button {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    background-color: #4f5466;
+    color: #dfdfdf;
+    cursor: pointer;
   }
   
   .middle_login {
