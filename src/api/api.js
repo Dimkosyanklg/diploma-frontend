@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const client = axios.create({
-  baseURL: "http://localhost:3001",
+  baseURL: "https://diploma-backend.onrender.com",
 });
 
 export const getRequests = async (userId) => {
