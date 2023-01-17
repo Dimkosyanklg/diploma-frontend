@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+}
+
+.middle {
+  width: 1210px;
+  margin: auto;
+}
+
+.middle__box {
+  display: flex;
+}
+
+.middle_left {
+  display: flex;
+  flex-direction: column;
+  margin: 72px 10px 0 10px;
+  width: 352px;
+}
+
+.middle_left a {
+  text-decoration: none;
+  color: #515151;
+  border-bottom: 1px solid #dfdfdf;
+  padding: 12px 10px;
+}
+
+.yellow-border {
+  border-top: 2px solid #d1c8a6;
+}
+
+.middle_left a:hover {
+  background-color: #f8f4e4;
+  transition: 0.5s ease;
+  border-bottom: 1px solid rgb(0 0 0 / 0%);
+}
+
+.middle_right {
+  margin: 28px 0 0 40px;
+  width: 770px;
+}
+
+.main-link {
+  color: #4f5466;
+  text-decoration: underline #d2d6df;
+  text-underline-offset: 2px;
+}
+
+.main-link:hover {
+  text-decoration: none;
+}
+
+.contact-info {
+  font-size: 24px;
+  line-height: 32px;
+  border-bottom: 1px solid #dfdfdf;
+  padding: 0 0 19px 0;
+  width: 797px;
+  margin: 18px 0 0 0;
+}
+
+.middle__strings {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle__wrap {
+  width: 600px;
+}
+
+.opening-hours {
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle__form-contacts {
+  width: 167px;
+  height: 41px;
+  background-color: #4f5466;
+  margin: 20px 0;
+}
+
+.middle__form-contacts a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 14px 14px;
+  position: absolute;
+}
+
+.middle__contacts a {
+  text-decoration: underline #d2d6df;
+  text-underline-offset: 3px;
+  color: #4f5466;
+}
+
+.middle__contacts a:hover {
+  text-decoration: none;
+}
+
+.indent {
+  margin-bottom: 50px;
+}
+
+.reception {
+  width: 140px;
+}
+
+.middle__tables {
+  overflow: hidden;
+  font-family: "PTF55F-webfont";
+  margin-top: 50px;
+}
+
+.dropdown {
+  cursor: pointer;
+  font-size: 15px;
+  border: none;
+  color: #4f5466;
+  background-color: inherit;
+  margin: 0;
+  text-decoration: dashed underline #bbbdc4;
+  text-underline-offset: 3px;
+  padding: 0;
+}
+
+.dropdown-content {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 18px;
+  margin: 20px 0 100px 0;
+}
+
+td {
+  border: 1px solid #aaa;
+  min-width: 20px;
+  padding: 15px;
+  vertical-align: top;
+}
+
+.not-flex {
+  display: block;
+}
+
+.break {
+  margin-bottom: 50px;
+}

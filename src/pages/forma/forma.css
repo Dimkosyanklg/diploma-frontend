@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+  }
+  
+  .middle {
+    display: flex;
+    width: 1210px;
+    margin: auto;
+  }
+  
+  .middle_left {
+    display: flex;
+    flex-direction: column;
+    margin: 72px 10px 0 10px;
+    width: 352px;
+  }
+  
+  .middle_left a {
+    text-decoration: none;
+    color: #515151;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 12px 10px;
+  }
+  
+  .yellow-border {
+    border-top: 2px solid #d1c8a6;
+  }
+  
+  .middle_left a:hover {
+    background-color: #f8f4e4;
+    transition: 0.5s ease;
+    border-bottom: 1px solid rgb(0 0 0 / 0%);
+  }
+  
+  .middle_right {
+    width: 770px;
+    margin: 28px 0 0 40px;
+  }
+  
+  .main-link {
+    color: #4f5466;
+    text-decoration: underline #d2d6df;
+    text-underline-offset: 3px;
+  }
+  
+  .main-link:hover {
+    text-decoration: none;
+  }
+  
+  .form-appeal {
+    font-size: 24px;
+    line-height: 32px;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 0 0 19px 0;
+    width: 797px;
+    margin: 18px 0 0 0;
+  }
+  
+  .appeal {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  
+  .tab {
+    overflow: hidden;
+  }
+  
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 19px;
+    text-decoration: dashed underline #bbbdc4;
+    text-underline-offset: 3px;
+    font-family: "PTF55F-webfont";
+    color: #4f5466;
+  }
+  
+  .tab button.active {
+    text-decoration: none;
+    background: #f3efdf;
+    color: #000;
+  }
+  
+  .tab-content {
+    display: none;
+    margin: 20px 0;
+  }
+  
+  .middle__form {
+    width: 107px;
+    height: 41px;
+    background-color: #4f5466;
+    margin: 20px 0 150px 0;
+  }
+  
+  .middle__form a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 13px;
+    padding: 14px 14px;
+    position: absolute;
+  }
+  
+  .tab-content input {
+      width: 372px;
+      height: 21px;
+      border-radius: 0;
+      margin-top: 30px;
+      border: 1px solid #a8a8a8;
+      padding: 15px;
+  }
+  
+  .early {
+      width: 507px;
+      height: 146px;
+      border-radius: 0;
+      margin-top: 30px;
+      border: 1px solid #a8a8a8;
+      padding: 15px;
+      resize: none;
+  }
+  
+  .text {
+      width: 695px;
+      height: 246px;
+      border-radius: 0;
+      margin-top: 30px;
+      border: 1px solid #a8a8a8;
+      padding: 15px;
+      resize: none;
+  }
+  
+  
+  
