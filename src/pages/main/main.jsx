@@ -230,62 +230,36 @@ export const Main = () => {
         </div>
       </div>
       <div className="middle__fast-links">
-        <div className="tab-vertical">
-          <button
-            className="tab-links"
-            onClick={(e) => {
-              openTab(e, "Customers");
-            }}
-          >
-            Клиентам ФК
-          </button>
-          <button
-            className="tab-links"
-            onClick={(e) => {
-              openTab(e, "Levy");
-            }}
-          >
-            Взыскателям
-          </button>
-          <button
-            className="tab-links"
-            onClick={(e) => {
-              openTab(e, "IT");
-            }}
-          >
-            ИТ-специалистам
-          </button>
-          <button
-            className="tab-links"
-            onClick={(e) => {
-              openTab(e, "Employees");
-            }}
-          >
-            Сотрудникам ФК
-          </button>
+        <div className="test-left">
+          <button className="tab-links active">Клиентам ФК</button>
+          <button className="tab-links">Взыскателям</button>
+          <button className="tab-links">ИТ-специалистам</button>
+          <button className="tab-links">Сотрудникам ФК</button>
         </div>
-        <div id="Customers" className="tab-cont">
-          <a href="#">Удостоверяющий центр</a>
-          <a href="#">СУФД-онлайн</a>
-          <a href="#">Новости и сообщения</a>
-          <a href="#">Документы</a>
-          <a href="#">Внешняя оценка деятельности ФК (Анкетирование)</a>
-        </div>
-        <div id="Levy" className="tab-cont">
-          <a href="#">Взыскание на средства федерального бюджета</a>
-          <a href="#">Работа с исполнительными документами</a>
-        </div>
-        <div id="IT" className="tab-cont">
-          <a href="#">ГИС</a>
-          <a href="#">Документы (информационные технологии)</a>
-          <a href="#">Открытые данные</a>
-        </div>
-        <div id="Employees" className="tab-cont">
-          <a href="#">О казначействе</a>
-          <a href="#">Новости и сообщения</a>
-          <a href="#">Документы</a>
-          <a href="#">Госслужба в ФК</a>
-          <a href="#">Профсоюз</a>
+        <div className="test-right">
+          <div id="Customers" className="tab-cont">
+            <a href="#">Удостоверяющий центр</a>
+            <a href="#">СУФД-онлайн</a>
+            <a href="#">Новости и сообщения</a>
+            <a href="#">Документы</a>
+            <a href="#">Внешняя оценка деятельности ФК (Анкетирование)</a>
+          </div>
+          {/* <div id="Levy" className="tab-cont">
+            <a href="#">Взыскание на средства федерального бюджета</a>
+            <a href="#">Работа с исполнительными документами</a>
+          </div>
+          <div id="IT" className="tab-cont">
+            <a href="#">ГИС</a>
+            <a href="#">Документы (информационные технологии)</a>
+            <a href="#">Открытые данные</a>
+          </div>
+          <div id="Employees" className="tab-cont">
+            <a href="#">О казначействе</a>
+            <a href="#">Новости и сообщения</a>
+            <a href="#">Документы</a>
+            <a href="#">Госслужба в ФК</a>
+            <a href="#">Профсоюз</a>
+          </div> */}
         </div>
       </div>
       <div className="middle__last-box">
